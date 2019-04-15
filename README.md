@@ -1,6 +1,6 @@
 # ξ &nbsp; [![Build Status](https://travis-ci.org/bkiers/xi.png)](https://travis-ci.org/bkiers/xi)
 
-Play correspondence Chinese Chess (**Xi**angqi): [play-xi.herokuapp.com](https://play-xi.herokuapp.com)
+Play correspondence Chinese Chess (**Xi**angqi): [play-xi.herokuapp.com](https://play-xi.herokuapp.com) (invite only, for now)
 
 ### Local development
 
