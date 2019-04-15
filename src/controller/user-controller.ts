@@ -65,6 +65,11 @@ router.post("/register", [
     const errorArray = validationResult(req).array();
     const data = { name: req.body.name, email: req.body.email };
 
+    if (!data.email.toLowerCase().endsWith("@q42.nl")) {
+        res.send("Sorry, invite only for now.");
+        return;
+    }
+
     if (errorArray.length > 0)
         return render(res, "user/register", { errors: arrayToObject(errorArray, "param"), data: data });
 
