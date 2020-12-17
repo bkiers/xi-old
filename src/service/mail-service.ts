@@ -12,7 +12,7 @@ export class MailService {
         sg.setApiKey(process.env.SENDGRID_API_KEY as string);
 
         await sg.send({
-            from: "bkiers+xi@gmail.com",
+            from: "noreply+xi@big-o.nl",
             to: to,
             subject: subject,
             text: message,
